@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio Page</title>
+  <link rel="shortcut icon" href="favicon-32x32.png">
+  <link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+<body>
+  <header class="page-header">
+    <a href="index.html">
+      <img src="img/MY LOGO.png" alt="logo image" class="page-header__item">
+    </a>
+
+    <nav class="page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item--active">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Projects</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact</h1>
+
+    <div class="">
+      Alemayehu Boku <br>
+      Frankfurt <br>
+      Germany <br>
+      <br>
+      Tel: <a href="tel:+491112223334">+491112223334</a><br>
+      Skype: <a href="skype:live.myskype">live.myskype</a><br>
+      Email:<a href="mailto:alemtola@gmail.com">alemtola@gmail.com</a><br>
+      <a href="mailto:alemtola@gmail.com">Contact me</a>
+      <br>
+      <br>
+    </div>
+
+    <form action="/login-form-action" method="post" id="contact-form">
+      <label for="name" class="standard-label">Name:</label><br>
+      <input id="name"><br>
+      <br>
+
+      <label for="email" class="standard-label">Email:</label><br>
+      <input id="email" required><br>
+      <br>
+
+      <label for="Phone-number" class="standard-label">Telephone:</label><br>
+      <input pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="Phone-number"><br>
+      <br>
+
+      <label for="message"class="standard-label">Message:</label><br>
+      <textarea maxlength="200" id="message" required></textarea><br>
+      <input type="submit"  value="Send Message" id="message">
+    </form>
+
+  </main>
+
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <img src="img/291716_github_logo_social network_social_icon.svg" alt="Github logo">
+      <img src="img/1233015_twitter_icon.svg" alt="Twitter logo">
+      <img src="img/107178_circle_linkedin_icon.svg" alt="LinkedIn logo">
+    </div>
+  </footer>
+
+  <script src="js/tota11y.min.js"></script>
+
+</body>
+</html>
