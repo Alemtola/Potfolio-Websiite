@@ -160,13 +160,21 @@ Secondary Color:#1E90FF;
 
  .about-main{
    padding: 20px;
-   text-align: center;
+   text-align: left;
  }
 
 .about-interests{
   list-style-type: none;
 }
 
+.contact-main{
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+}
+
+}
 @keyframes color-change {
   0%{
     fill: #edc655;
