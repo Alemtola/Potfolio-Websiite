@@ -190,6 +190,13 @@ Secondary Color:#1E90FF;
   list-style-type: none;
 }
 
+.contact-main{
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+
 @-webkit-keyframes color-change {
   0%{
     fill: #edc655;
