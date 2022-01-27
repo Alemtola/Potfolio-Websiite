@@ -18,7 +18,7 @@ Secondary Color:#1E90FF;
 }
 
 body {
-  background-color: #fff;
+  background-color: rgb(107, 61, 61);
 }
 
 body {
@@ -48,7 +48,7 @@ a {
 }
 
 a:visited {
-  color: #4b0082;
+  color: #f35656;
 
   /* visited link */
 }
@@ -113,7 +113,9 @@ button:focus,
   display: flex;
   width: 100%;
   padding: 20px;
+  background-color: rgb(47, 6, 6);
   border-bottom: 2px solid lightgray;
+  
 }
 
 .page-header__item {
@@ -139,8 +141,20 @@ button:focus,
 }
 
 .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 40px;
+}
+
+.profile-container{
   max-width: 700px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column ;
+}
+
+.profile-text{
+  text-align: center;
 }
 
 .profile__portrait {
@@ -172,21 +186,22 @@ button:focus,
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.grid__item:last-child {
-  -ms-grid-column: 3;
-  grid-column: 3/3;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  grid-row: 1/3;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .grid__item {
-  background-color: lightgray;
+  /*background-color: lightgray;*/
+  background-image: linear-gradient(180deg, #837878c2,#571d1d );
   text-align: center;
+  color: rgb(181, 183, 184);
+}
+
+.grid__text{
+  padding-left:7px ;
+  padding-right: 7px;
 }
 
 .about-main {
