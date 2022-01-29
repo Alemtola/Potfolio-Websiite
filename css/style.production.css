@@ -18,7 +18,7 @@ Secondary Color:#1E90FF;
 }
 
 body {
-  background-color: rgb(107, 61, 61);
+  background-color: rgb(165, 157, 156);
 }
 
 body {
@@ -44,11 +44,11 @@ h3 {
 }
 
 a {
-  color: #4b0082;
+  color: #61817f;
 }
 
 a:visited {
-  color: #f35656;
+  color: #e7e7e7;
 
   /* visited link */
 }
@@ -61,7 +61,7 @@ a:focus {
 }
 
 a:active {
-  color: #00008b;
+  color: #3d3d57;
 
   /* selected link */
 }
@@ -90,7 +90,7 @@ button {
 }
 
 .button {
-  background-color: #837878c2;
+  background-color: #6b6161c2;
   color: #000;
  margin: 10px;
 }
@@ -175,6 +175,8 @@ button:focus,
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .project-title {
